@@ -14,7 +14,7 @@ if(leadsFromLocalStorage) {
 
 
 
-//Listen for clicks on tabBtn. Log Per's LinkedIn URL to the console
+//Listen for clicks on tabBtn.
 tabBtn.addEventListener("click", function(e) {
     // grab the chrome tabs
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) { 
